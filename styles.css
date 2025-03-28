@@ -1,0 +1,63 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #000;
+  color: #fff;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chart-wrap {
+  position: relative;
+}
+
+svg {
+  margin: 10px;
+  padding: 20px;
+  color: #fff;
+  fill: #fff;
+  background-color: #00004d;
+}
+
+#title {
+  font-size: 1.6rem;
+}
+
+.bar {
+  fill: #00beef;
+}
+
+.bar:hover {
+  fill: darkgoldenrod;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 6px 3px;
+  width: 120px;
+  opacity: 0;
+  text-align: center;
+  background-color: darkgoldenrod;
+  border-radius: 1em;
+  pointer-events: none;
+}
+
+.info {
+  font-size: 0.8rem;
+}
+
+#tribute {
+  text-align: center;
+}
+
+.author {
+  color: purple;
+}
